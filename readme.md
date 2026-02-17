@@ -87,7 +87,7 @@ Customers who raise complaints show an extremely high probability of churn, sugg
 Significant customer balances are lost due to churn, particularly within high-value regional segments.
 
 #### key-visualisation:
-![customer-segments & churn](visulaisations/customer-segment-churn.png)
+![customer-segments & churn](visualisations/customer-segment-churn.png)
 
 ---
 
