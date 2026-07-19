@@ -43,7 +43,10 @@ This project addresses that challenge by helping business teams answer questions
 - Build an interactive business application for real-time customer scoring
 
 click here to access deployed web application:
-#### [Customer Churn Intelligence Application]()
+[Customer Churn Intelligence Application](https://churn-prediction-risk-analyzer.streamlit.app/)
+
+
+**Application Demo:**
 
 ![DEMO OF APPLICATION](readme-assets/app-demo.gif)
 
