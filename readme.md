@@ -52,43 +52,6 @@ click here to access deployed web application:
 
 ## Key Insights
 
-<<<<<<< HEAD
-summary:
-| Area | Key Finding | Business Action |
-|---|---|---|
-| Geography | Germany churns at ~32% | Prioritize German retention campaigns |
-| Engagement | Inactive funded customers churn most | Trigger outreach for high-balance inactive users |
-| Products | 2-product customers churn least | Promote second-product adoption |
-
-Report File: [`report-pdf.pdf`](report-pdf.pdf)
-Analysis File (SQL): [`churn_analysis_sql.sql`](churn_analysis_sql.sql)  
-Visualisations: [`bank_churn_visuals.ipynb`](bank_churn_visuals.ipynb)
-
-
-### Regional Churn Risk
-Germany shows significantly higher churn (~32%) compared to France and Spain (~16–17%), indicating a regional retention issue.
-
-### Demographic Risk Patterns
-Customers aged **46–65** exhibit the highest churn rates, suggesting mid-to-late lifecycle disengagement.
-
-### Product Ownership Effect
-Customers holding exactly **2 products** have the lowest churn rates, indicating an optimal engagement.
-
-### Engagement Matters
-Inactive customers churn at much higher rates than active members, highlighting disengagement as a strong churn signal.
-
-### High-Value Customer Risk
-High-balance customers, especially in Germany, show elevated churn rates, indicating potential loss of valuable deposits.
-
-### Complaint as a Critical Indicator
-Customers who raise complaints show an extremely high probability of churn, suggesting ineffective service recovery.
-
-### Financial Impact
-Significant customer balances are lost due to churn, particularly within high-value regional segments.
-
-#### key-visualisation:
-![customer-segments & churn](visualisations/customer-segment-churn.png)
-=======
 - Germany shows significantly higher churn (~32%) compared to France and Spain (~16–17%), indicating a regional retention issue.
 
 - Customers aged **46–65** exhibit the highest churn rates, suggesting mid-to-late lifecycle disengagement.
@@ -110,7 +73,7 @@ Descriptive Analysis Report File: [`report-pdf.pdf`](readme-assets/report-pdf.pd
 Analysis File (SQL): [`churn_analysis_sql.sql`](churn_analysis_sql.sql)  
 Power BI dashboard: [`dashboard`](dashboard.pbix)
 Prediction Application Live link: [`Streamlit Deployed Application`]()
->>>>>>> b5230fe (added predictive churn modelling)
+
 
 ---
 
@@ -169,7 +132,7 @@ Key analyses included:
 
 3. Data Pre-Processing 
 
-</details>
+<details>
 
 The preprocessing pipeline included:
 
