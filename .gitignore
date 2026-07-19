@@ -4,5 +4,5 @@ __pycache__/
 .env
 
 #local files
-churn_analysis_2
+churn_analysis_2.sql
 data/original-data/
