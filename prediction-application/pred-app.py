@@ -15,8 +15,8 @@ PRECISION = 0.8273
 RECALL = 0.4461
 ROC_AUC = 0.8703
 
-MODEL_PATH = "random_forest_model.pkl"
-FEATURE_NAMES_PATH = "feature_names.pkl"
+MODEL_PATH = "prediction-application/random_forest_model.pkl"
+FEATURE_NAMES_PATH = "prediction-application/feature_names.pkl"
 
 RISK_LOW_MAX = 30
 RISK_MEDIUM_MAX = 60

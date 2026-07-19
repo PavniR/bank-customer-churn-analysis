@@ -310,21 +310,6 @@ The processed dataset was cleaned and transformed into a machine learning-ready 
 `customerid`, `rownumber`, `surname` were dropped to prevent data leakage. 
 
 
-- SQL Query Concepts Used
-
-This project uses SQL to perform data validation, exploratory analysis, customer segmentation, and churn risk analysis. Key SQL concepts used include:
-
-- **Aggregate Functions:** Used `COUNT()`, `AVG()`, `SUM()`, `MIN()`, and `MAX()` to calculate churn rates, customer counts, balance totals, and numeric ranges.
-- **GROUP BY:** Segmented customers by geography, gender, age group, product ownership, activity status, complaint status, and balance category.
-- **CASE Statements:** Created custom customer segments such as age groups, balance buckets, and risk-based customer categories.
-- **Common Table Expressions (CTEs):** Used `WITH` clauses to structure intermediate segmentation logic before calculating churn rates.
-- **Conditional Filtering:** Used `WHERE` conditions to isolate high-risk groups such as inactive funded customers, German customers, churned customers, and high-balance customers.
-- **Boolean Logic:** Analyzed binary fields such as `Exited`, `IsActiveMember`, `HasCrCard`, and `Complain`.
-- **Type Casting:** Converted churn indicators using `exited::int` to calculate churn rates with `AVG()`.
-- **Conditional Aggregation:** Used `FILTER` with `SUM()` to calculate churned customer balances by geography.
-- **Sorting and Ranking Logic:** Used `ORDER BY` to identify highest-risk customer groups and prioritize segments.
-- **Data Validation Queries:** Checked for null values, duplicate customer IDs, valid categorical values, binary column consistency, and numeric value ranges.
-
 ---
 
 # Tech Stack:
