@@ -45,7 +45,7 @@ This project addresses that challenge by helping business teams answer questions
 click here to access deployed web application:
 #### [Customer Churn Intelligence Application]()
 
-![DEMO OF APPLICATION](app-demo.gif)
+![DEMO OF APPLICATION](readme-assets/app-demo.gif)
 
 
 ---
@@ -66,13 +66,16 @@ click here to access deployed web application:
 
 - Significant customer balances are lost due to churn, particularly within high-value regional segments.
 
-![DEMO OF DASHBOARD](dash-demo.gif)
+![DEMO OF DASHBOARD](readme-assets/dash-demo.gif)
 
 
 Descriptive Analysis Report File: [`report-pdf.pdf`](readme-assets/report-pdf.pdf)
+
 Analysis File (SQL): [`churn_analysis_sql.sql`](churn_analysis_sql.sql)  
-Power BI dashboard: [`dashboard`](dashboard.pbix)
-Prediction Application Live link: [`Streamlit Deployed Application`]()
+
+Power BI dashboard: [`dashboard.pbix`](dashboard.pbix)
+
+Prediction Application Live link: [`Streamlit Deployed Application`](https://churn-prediction-risk-analyzer.streamlit.app/)
 
 
 ---
