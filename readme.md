@@ -52,6 +52,7 @@ click here to access deployed web application:
 ![DEMO OF APPLICATION](readme-assets/app-demo.gif)
 
 (Note: The final model prioritizes precision over recall to reduce false-positive retention efforts. This trade-off is intentional: in real-world customer retention campaigns, contacting fewer customers with higher confidence is often more cost-effective than maximizing recall at the expense of many unnecessary interventions.)
+
 ---
 
 ## Key Insights
@@ -86,7 +87,7 @@ Prediction Application Live link: [`Streamlit Deployed Application`](https://chu
 
 ### Project Workflow:
 
-##### 1. SQL Based Business Analysis:
+#### 1. SQL Based Business Analysis:
 
 <details>
 
@@ -119,7 +120,7 @@ This segmentation can be helpful in prioritising retention strategies effectivel
 
 </details>
 
-##### 2. Python EDA 
+#### 2. Python EDA 
 
 <details>
 
@@ -137,7 +138,7 @@ Key analyses included:
 
 </details>
 
-##### 3. Data Pre-Processing 
+#### 3. Data Pre-Processing 
 
 <details>
 
@@ -153,7 +154,7 @@ The preprocessing pipeline included:
 
 </details>
 
-##### 4. Trained Machine Learning Models: Logistic Regression, Decision Tree, Random Forest
+#### 4. Trained Machine Learning Models: Logistic Regression, Decision Tree, Random Forest
 
 <details>
 
@@ -185,7 +186,7 @@ The Random Forest model trained without this feature was selected for deployment
 
 </details>
 
-##### 5. SHAP Explainability
+#### 5. SHAP Explainability
 
 <details>
 
@@ -205,7 +206,7 @@ This allows business users to understand **why** a customer was classified as hi
 </details>
 
 
-##### 6. Risk Scoring & Customer Segmentation
+#### 6. Risk Scoring & Customer Segmentation
 
 <details>
 
@@ -223,7 +224,7 @@ Recommended retention actions are automatically generated based on customer risk
 
 </details>
 
-##### 7. Power BI dashboard
+#### 7. Power BI dashboard
 
 <details>
 
@@ -253,7 +254,7 @@ Includes:
 
 </details>
 
-##### 8. Streamlit Decision Support Application
+#### 8. Streamlit Decision Support Application
 
 <details>
 
